@@ -41,7 +41,7 @@ const BannerInfo = ({ image, index }: IBannerInfo) => {
   }, [index, image]);
 
   return (
-    <div className=" mx-auto  flex flex-col justify-center items-start h-full gap-6 p-[25px] md:p-0">
+    <div className=" max-w-3/5  flex flex-col justify-center items-start h-full gap-6 p-[25px] md:p-0">
       <p
         ref={descRef}
         className="text-sm text-light-text sm:text-base font-normal font-work-sans capitalize"
